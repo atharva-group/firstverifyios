@@ -195,6 +195,9 @@
 			);
 			mainGroup = 452D21972EDA377B004DB31D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				452D21CA2EDA6508004DB31D /* XCRemoteSwiftPackageReference "RxBluetoothKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 452D21A12EDA377B004DB31D /* Products */;
 			projectDirPath = "";
@@ -578,6 +581,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		452D21CA2EDA6508004DB31D /* XCRemoteSwiftPackageReference "RxBluetoothKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Polidea/RxBluetoothKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 452D21982EDA377B004DB31D /* Project object */;
 }
